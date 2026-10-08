@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOBILEX - Welcome</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{background:#000;color:#fff;font-family:Arial;overflow-x:hidden}
+.hero{position:relative;width:100%;height:100vh;min-height:600px;display:flex;align-items:center;justify-content:flex-end;padding-right:8%;background:#000;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background-image:url(data:image/jpeg;base64,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);background-size:cover;background-position:center;filter:brightness(0.45)}
+.hero::after{content:'';position:absolute;inset:0;background:rgba(0,0,0,0.3)}
+.welcome-box{position:relative;z-index:2;background:rgba(0,0,0,0.78);border-radius:16px;padding:28px 34px;max-width:440px;text-align:center}
+.welcome-box h1{font-size:38px;font-weight:900;margin-bottom:12px}.welcome-box h1 span{color:#00d4ff}
+.welcome-box p{color:#ccc;font-size:14px;line-height:1.5;margin-bottom:18px}
+.open-btn{display:inline-block;background:#00d4ff;color:#000;font-weight:900;padding:9px 26px;border-radius:25px;text-decoration:none;font-size:13px}
+header{position:fixed;top:0;width:100%;padding:12px 6%;display:flex;justify-content:space-between;align-items:center;background:rgba(0,0,0,0.85);z-index:10;border-bottom:1px solid #222}
+.section{padding:65px 6%} .section h2{text-align:center;font-size:28px;margin-bottom:8px} .sub{text-align:center;color:#666;font-size:12px;margin-bottom:35px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.card{background:#14141c;border:1px solid #222;padding:22px;border-radius:16px}.card p{color:#777;font-size:12px} .price{color:#00ff88;margin-top:8px;font-weight:bold;font-size:12px}
+.address-box{background:#14141c;border:1px solid #222;border-radius:16px;padding:24px;max-width:850px;margin:0 auto;text-align:center}
+@media(max-width:700px){.hero{justify-content:center;padding-right:0} .welcome-box{max-width:92%} .welcome-box h1{font-size:28px}}
+</style>
+</head>
+<body>
+<header><div style="font-weight:900">MOBILEX</div><a href="tel:9944661368" style="background:#ff1e1e;color:#fff;padding:7px 14px;border-radius:20px;text-decoration:none;font-size:11px;font-weight:800">📞 9944661368</a></header>
+<section class="hero">
+<div class="welcome-box">
+<h1>Welcome to <span>MOBILEX</span></h1>
+<p>Professional Mobile Repair Service<br>Fast Repair | Genuine Parts | Trusted Service</p>
+<a href="#address" class="open-btn">OPEN</a>
+</div>
+</section>
+<div id="address">
+<section class="section">
+<h2>📍 OUR STORE ADDRESS</h2><p class="sub">Big Mosque Street, Tenkasi</p>
+<div class="address-box">
+<h3 style="color:#00d4ff;margin-bottom:10px">MOBILEX Mobile Store & Service Center</h3>
+<p style="color:#aaa;line-height:1.9;font-size:13px">
+Big Mosque Street, Shop No.2,<br>Vadakarai Keezhpadugai, Tenkasi - 627812<br><br>
+📞 <a href="tel:9944661368" style="color:#ff1e1e;font-weight:900;text-decoration:none">9944661368</a><br>
+📸 @mobilex.__ | 🕐 9AM-9:30PM | ⚡ Same Day Service<br><br>
+<a href="https://maps.google.com/?q=Big+Mosque+Street+Tenkasi" target="_blank" style="background:#ff1e1e;color:#fff;padding:10px 20px;border-radius:25px;text-decoration:none;font-weight:700;display:inline-block;margin:4px">📍 Google Maps</a>
+<a href="https://wa.me/919944661368" target="_blank" style="border:1px solid #333;color:#fff;padding:10px 20px;border-radius:25px;text-decoration:none;display:inline-block;margin:4px">💬 WhatsApp</a>
+</p>
+</div>
+</section>
+<section class="section" style="background:#0a0a0f">
+<h2>🔧 8 SERVICES</h2><p class="sub">9944661368</p>
+<div class="grid">
+<div class="card"><h3>📱 Display</h3><p>Original Combo</p><div class="price">From ₹999</div></div>
+<div class="card"><h3>🔌 Charging</h3><p>Port, IC fix</p><div class="price">From ₹299</div></div>
+<div class="card"><h3>🔋 Battery</h3><p>6M warranty</p><div class="price">From ₹799</div></div>
+<div class="card"><h3>🧠 IC Level</h3><p>CPU reballing</p><div class="price">Expert</div></div>
+<div class="card"><h3>🔧 Motherboard</h3><p>Dead, water</p><div class="price">Free Check</div></div>
+<div class="card"><h3>🔓 Software</h3><p>FRP, unlock</p><div class="price">From ₹250</div></div>
+<div class="card"><h3>💧 Water Damage</h3><p>Ultrasonic clean</p><div class="price">From ₹400</div></div>
+<div class="card"><h3>📷 Camera/Speaker</h3><p>Mic, speaker</p><div class="price">From ₹199</div></div>
+</div>
+</section>
+<section class="section">
+<h2>🎧 ACCESSORIES + HARDWARE</h2><p class="sub">Best price Tenkasi</p>
+<div class="grid">
+<div class="card"><h3>🎧 AirPods</h3><p>Apple, Boat</p><div class="price">From ₹799</div></div>
+<div class="card"><h3>⌚ Watches</h3><p>Apple, Samsung</p><div class="price">From ₹1299</div></div>
+<div class="card"><h3>🔋 Power Banks</h3><p>20000mAh</p><div class="price">From ₹999</div></div>
+<div class="card"><h3>📱 Cases & Glass</h3><p>Free fitting</p><div class="price">From ₹99</div></div>
+<div class="card"><h3>🔌 Chargers</h3><p>65W-120W</p><div class="price">From ₹299</div></div>
+<div class="card"><h3>🔊 Speakers</h3><p>JBL, Boat</p><div class="price">From ₹699</div></div>
+<div class="card"><h3>🔩 Spares</h3><p>Wholesale</p><div class="price">Wholesale</div></div>
+<div class="card"><h3>🛠️ Tools</h3><p>Opening kits</p><div class="price">From ₹199</div></div>
+</div>
+</section>
+<section class="section" style="background:#0a0a0f">
+<h2>⭐ FEEDBACK</h2><p class="sub">Direct to 9944661368</p>
+<div style="max-width:500px;margin:0 auto;background:#14141c;padding:24px;border-radius:16px;border:1px solid #222">
+<input id="name" placeholder="Your Name" style="width:100%;padding:12px;background:#08080b;border:1px solid #333;border-radius:10px;color:#fff;margin-bottom:10px">
+<input id="phone" placeholder="Your Phone" style="width:100%;padding:12px;background:#08080b;border:1px solid #333;border-radius:10px;color:#fff;margin-bottom:10px">
+<textarea id="msg" rows="4" placeholder="Your feedback..." style="width:100%;padding:12px;background:#08080b;border:1px solid #333;border-radius:10px;color:#fff;margin-bottom:10px"></textarea>
+<button onclick="var n=document.getElementById('name').value||'Customer';var p=document.getElementById('phone').value||'';var m=document.getElementById('msg').value||'';if(!m){alert('Feedback type pannu da!');return;}window.open('https://wa.me/919944661368?text=*MOBILEX FEEDBACK*%0AName: '+n+'%0APhone: '+p+'%0AMsg: '+m,'_blank')" style="width:100%;background:#25D366;color:#fff;padding:12px;border:none;border-radius:25px;font-weight:900;cursor:pointer">Send to 9944661368 →</button>
+</div>
+</section>
+<footer style="padding:24px;text-align:center;border-top:1px solid #222;color:#555;font-size:11px">© 2026 MOBILEX - 9944661368 - Tenkasi</footer>
+</div>
+</body>
+</html>
